@@ -1,5 +1,5 @@
 /* Задание 4 */
-function anyNamber(number1, number2) {
+function anyNumber(number1, number2) {
     let progress = number1;
     let intervalId = setInterval(function() {
       if (progress <= number2) {
@@ -9,4 +9,4 @@ function anyNamber(number1, number2) {
     }, 1000);
     
   }
-  anyNamber(5, 15) 
+  anyNumber(5, 15) 
